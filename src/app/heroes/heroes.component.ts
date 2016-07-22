@@ -22,12 +22,12 @@ export class HeroesComponent implements OnInit {
     this.getHeroes();
   }
 
-  onSelect(hero: Hero) {
-    this.selectedHero = hero;
-  }
-
   getHeroes() {
     this.heroService.getHeroes().then(heroes => this.heroes = heroes);
+  }
+
+  onSelect(hero: Hero) {
+    this.selectedHero = hero;
   }
 
 }

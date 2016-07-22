@@ -1,20 +1,20 @@
-/* tslint:disable:no-unused-variable */
+// /* tslint:disable:no-unused-variable */
 
-import { By }           from '@angular/platform-browser';
-import { DebugElement } from '@angular/core';
+// import { By }           from '@angular/platform-browser';
+// import { DebugElement } from '@angular/core';
 
-import {
-  beforeEach, beforeEachProviders,
-  describe, xdescribe,
-  expect, it, xit,
-  async, inject
-} from '@angular/core/testing';
+// import {
+//   beforeEach, beforeEachProviders,
+//   describe, xdescribe,
+//   expect, it, xit,
+//   async, inject
+// } from '@angular/core/testing';
 
-import { DashboardComponent } from './dashboard.component';
+// import { DashboardComponent } from './dashboard.component';
 
-describe('Component: Dashboard', () => {
-  it('should create an instance', () => {
-    let component = new DashboardComponent();
-    expect(component).toBeTruthy();
-  });
-});
+// describe('Component: Dashboard', () => {
+//   it('should create an instance', () => {
+//     let component = new DashboardComponent();
+//     expect(component).toBeTruthy();
+//   });
+// });
